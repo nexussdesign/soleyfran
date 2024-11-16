@@ -1,0 +1,248 @@
+<html>
+
+<head>
+    <meta property="og:image" content="https://evnt.ar/boda/images/metaimg.jpg">
+    <meta property="og:title" content="Soledad y Franco">
+    <meta property="og:description" content="¡Nos Casamos! y queremos compartirlo con vos">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+
+    <title>Soledad y Franco</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="../assets/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/js/wow/animate.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&amp;family=Parisienne&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Sacramento&amp;display=swap"
+        rel="stylesheet">
+    <link href="../assets/css/icons/css/all.css" rel="stylesheet">
+    <style>
+        body,
+        header {
+            background-color: #fffcf6;
+        }
+
+        header {
+           height: 150px;
+        }
+
+        h2,
+        h3,
+        .countdown .timer div,
+        header h1 {
+            font-family: "Old Standard TT", serif;
+        }
+
+        header h1,
+        .cover .text i,
+        .timer div,
+        .countdown p,
+        .countdown a i,
+        .events .item i,
+        .social .item i,
+        .video span,
+        .gallery span,
+        .hotels span,
+        .hotels .list a i,
+        .gifts i,
+        .modalGift h3,
+        .modalGift .item .right p b,
+        .modalGift .item .right .list a h4,
+        .modalGift .closeModal i,
+        .invites i,
+        .invites span,
+        .confirmation .link i,
+        .confirmation .modalGift .contenido-modal .form label,
+        .confirmation .modalGift .contenido-modal span,
+        .confirmation .modalGift .contenido-modal .thanks i,
+        footer p i,
+        .content .info .text i,
+        .cover .text h1,
+        .cover.full.design .text h2,
+        .cover.design .text h2 {
+            color: #10552F;
+        }
+
+        .story,
+        .gifts a,
+        .gifts button,
+        .gifts,
+        .confirmation,
+        .confirmation .modalGift .contenido-modal .form .container .checkmark:after,
+        .confirmation .modalGift .contenido-modal .form button,
+        .salon .item .right a,
+        .player .icon {
+            background-color: #10552F;
+        }
+
+        .player {
+            top: 160px;
+        }
+    </style>
+</head>
+
+<body style="overflow: auto;">
+
+    <!-- ************************************************************************************************************
+                    INVITACIÓN
+**************************************************************************************************************-->
+
+    <div class="intro" id="intro" style="display: none;">
+        <div class="top up" id="top">
+            <div class="badge" onclick="animar();"><img src="../assets/images/sello.png"></div>
+            <img src="../assets/images/envelopet.png" class="top hiddenM">
+            <img src="../assets/images/envelopetm.png" class="top hiddenL">
+        </div>
+        <div class="bottom down" id="bottom"></div>
+    </div>
+    <script src="../assets/js/envelope.js"></script>
+    <span class="player" id="button">
+        <div class="icon">
+            <img src="../assets/images/pause.png">
+        </div>
+    </span>
+    <audio id="player" loop="">
+        <source src="../assets/music/music.mp3" type="audio/mp3">
+    </audio>
+    <header><img src="../assets/images/logo.png" style="max-width: 400px;"></header>
+    <section class="cover" style="height: 100vh;">
+        <div class="text">
+            <h2>¡Nos Casamos!</h2>
+            <p>y queremos compartirlo contigo.</p>
+        </div>
+        <div class="slider" id="slider">
+            <div class="image" style="opacity: 1;"><img src="../assets/images/Pd2.jpg"></div>
+        </div>
+    </section>
+    <script src="../assets/js/slider.js"></script>
+    <section class="countdown">
+        <p>Agenda la fecha</p>
+        <h2>21 de Diciembre</h2>
+        <div id="countdown" class="timer" data-init-value="12/21/2024 19:00:00">
+            <div>
+                <div id="days">95</div><span>DÍAS</span>
+            </div>
+            <div class="point">:</div>
+            <div>
+                <div id="hs">0</div><span>HS</span>
+            </div>
+            <div class="point">:</div>
+            <div>
+                <div id="min">47</div><span>MIN</span>
+            </div>
+            <div class="point">:</div>
+            <div>
+                <div id="seg">41</div><span>SEG</span>
+            </div>
+        </div>
+        <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MTc2aWk5cG40cGlkZmswNjJ1cGdmYTVodXMgbmV4dXMuZmxvckBt&tmsrc=nexus.flor%40gmail.com" target="_blank"><i class="fa-regular fa-calendar-check"></i>Agendar fecha</a>
+    </section>
+    <script src="../assets/js/countdown.js"></script>
+    <section class="events">
+
+        <article class="item">
+            <i class="fa-thin fa-champagne-glasses"></i>
+            <h2>Ceremonia & Festejo</h2>
+            <div>
+                <p><b>Sociedad Rural Balcarce</b></p>
+                <p>Av. Centenario 2175, Balcarce</p>
+                <p>21 de Diciembre, 19:00 hs.</p>
+            </div>
+            <a href="https://maps.app.goo.gl/dK2TzRHzkTUKtEQU7" target="_blank">Cómo llegar</a>
+        </article>
+
+        <article class="item">
+            <i class="fa-thin fa-clothes-hanger"></i>
+            <h2>Dress Code</h2>
+            <div>
+                <p><b>Formal - Elegante</b></p>
+                <p>Como más te guste</p>
+                <p>El Blanco queda reservado para La Novia</p>
+            </div>
+            <a href="https://pin.it/4fIXViu1Z" target="_blank">Inspirate</a>
+        </article>
+
+        <article class="item">
+            <i class="fa-brands fa-spotify"></i>
+            <h2>Nuestra Música</h2>
+            <div>
+                <p><b>Agrega tus canciones favoritas</b></p><br>
+                <p>Que la pista este llena de recuerdos</p>
+            </div>
+            <a href="https://open.spotify.com/playlist/3L6H7ggV3KeP7CQzn8UE2i?si=gh5l56TsRKOY_ZapELDEXw&pt=c3090fdf11fa5a40f4ef483142cf8582&pi=u-y3UlZMBMSN6r" target="_blank">Agregar canción</a>
+        </article>
+
+    </section>
+    <section class="story">
+        <div class="image">
+            <img src="../assets/images/historia.jpg" alt="Nuestra Historia">
+        </div>
+        <div class="text">
+            <i class="fa-thin fa-heart"></i>
+
+            <h2>Nuestra Historia</h2>
+            <p style="font-size:16px">A doce mil kilómetros de distancia, nuestras vidas se cruzaban en un vasto océano digital. Aunque compartíamos imágenes y momentos en las redes sociales, las palabras se quedaban atrapadas en la inercia del silencio. Era necesario encontrar un motivo, una chispa que encendiera la conversación y rompiera el hielo. Fue entonces, en un instante "casual", cuando una publicación de Instagram —un partido de Boca de fondo— se convirtió en el puente que anhelábamos.
+                <br><br>Así, entre risas y comentarios, nuestra historia comenzó a tejerse. Ahora, dejamos a su imaginación la interpretación de quién es cada uno en esta breve de amor.
+            </p>
+            <!--<a href="#">Ver más</a>-->
+        </div>
+    </section>
+
+    
+    </section>
+    <section class="gifts" style="background-image: url('../assets/images/gifts.jpg');background-repeat: repeat-x; background-position-x: 49.5vw;">
+        <div class="card">
+            <i class="fa-light fa-gift"></i>
+            <h2>Regalos</h2>
+            <p>Tu presencia es lo más importante para nosotros.<br>Si además deseas hacernos un regalo, 
+                aqui te dejamos nuestra cuenta.</p>
+            <a class="link modal-button" target="_blank" href="https://drive.google.com/file/d/19RDWJDOGD42AoUEdLkyNdsrJLJPSsMvS/view?usp=drive_link"style="padding:15px 32px;">
+                </i>Enviar regalo
+            </a>
+
+    </section>
+    <section class="confirmation">
+        <i class="fa-light fa-clipboard-list"></i>
+        <span></span>
+        <h2>Confirmación de Asistencia</h2>
+        <p>Esperamos contar con tu presencia</p>
+        <p>Tiempo límite para contestar hasta el 14 de Dic.</p>
+        <!-- DETALLES EXTRA -->
+        <a class="link modal-button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfWPYhMGN57IQ6mhCb4jjbS-1JtD06vIFQZbNkzzBWtMdQsLw/viewform?usp=sharing" style="padding:15px 32px;">
+            <i class="fa-regular fa-circle-check" style="margin-right:10px"></i>Confirmar Asistencia
+        </a>
+    </section>
+    <footer>
+        <p>Hecho con&nbsp;<i class="fa-thin fa-heart" style="color: white;"></i> por Nexuss.design</p>
+    </footer>
+
+    <!-- ************************************************************************************************************
+                    SCRIPTS
+**************************************************************************************************************-->
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="../assets/js/modal.js"></script>
+    <script src="../assets/js/lightbox.js"></script>
+    <script>
+        var button = document.getElementById("button");
+        var audio = document.getElementById("player");
+        button.addEventListener("click", function () {
+            if (audio.paused) {
+                audio.play();
+                button.innerHTML = "<div class='icon'><img src='../assets/images/play.gif'/></div>";
+            } else {
+                audio.pause();
+                button.innerHTML = "<div class='icon'><img src='../assets/images/pause.png'/></div>";
+            }
+        });
+    </script>
+</body>
+
+</html>
