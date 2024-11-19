@@ -28,10 +28,18 @@
         body,
         header {
             background-color: #FFFCF6;
+            color: #10552F;
         }
 
         header {
-           height: 150px;
+            height: 150px;
+        }
+
+        @media (prefers-color-scheme: dark) and (max-width: 768px) {
+            body {
+                background-color: #FFFCF6;
+                color: #10552F;
+            }
         }
 
         h2,
